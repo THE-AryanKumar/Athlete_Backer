@@ -55,7 +55,7 @@ const Discount = (props: Props) => {
                     <span className='font-semibold text-[12px]'>Did you know?</span>
                 </div>
                 <h3 className="text-[#ffa28b] mb-2 mt-3 lg:text-6xl md:text-5xl text-3xl font-medium">2 min</h3>
-                <p className="mb-3 md:text-xl text-base font-medium text-white">That's the average time to create a campaign on our website.<sup>1</sup></p>
+                <p className="mb-3 md:text-xl text-base font-medium text-white">Thats the average time to create a campaign on our website.<sup>1</sup></p>
             </div>
         </motion.div>
     </div>

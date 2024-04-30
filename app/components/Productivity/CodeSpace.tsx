@@ -90,7 +90,7 @@ the project that you want to raise funds for.</h2>
                     <span className='font-semibold text-[12px]'>Did you know?</span>
                 </div>
                 <h3 className="text-[#7ee787] mb-2 mt-3 lg:text-6xl md:text-5xl text-3xl font-medium">$ 114 Billion</h3>
-                <p className="mb-3 md:text-xl text-base font-medium text-white">That's the size of total crowdfunding market.<sup>1</sup></p>
+                <p className="mb-3 md:text-xl text-base font-medium text-white">Thats the size of total crowdfunding market.<sup>1</sup></p>
             </div>
         </motion.div>
     </div>
