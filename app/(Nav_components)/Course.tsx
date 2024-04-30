@@ -20,7 +20,10 @@ function Course() {
   return (
     <div className="Nav_text flex flex-row group relative group ">
       <div onClick={() => setopen(true)} className="  flex flex-row">
-        campaings
+        Vision
+      <div className="w-[38px] h-[16px] border border-teal-500 absolute top-[-13px] flex flex-row items-center justify-center left-[-20px] text-[11px]  bg-[#BBF7D0] text-teal-800  font-bold rounded-full ">
+                <span>soon</span>
+              </div>
         <ChevronDownIcon className=" w-[18px] h-[18px]  text-gray-300 translate-y-[2px] group-hover:text-[#0000009e] group-hover:text-gray-50 ml-[10px]" />
       </div>
 
@@ -58,7 +61,7 @@ function Course() {
               <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
             </svg>
           </div>
-          <a href="/Project">
+          <a href="/">
           <div className=" flex flex-col">
             <span className=" font-bold text-gray-200 text-[16px] hover:underline ">
               Vision

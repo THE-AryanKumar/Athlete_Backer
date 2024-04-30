@@ -50,7 +50,7 @@ function Section_1() {
       {/* //add bg-[url('/main.svg')] to above section to turn on the light a bit */}
       <div className=" w-[1250px]  h-full z-[-10] absolute   top-[-280px]  flex flex-row   items-start justify-center ">
         {/* InterStellar Black-Hole theme - commenting_out */}
-        {/* <video
+        <video
           className="w-full h-auto  rotate-180  "
           preload="false"
           playsInline
@@ -59,7 +59,7 @@ function Section_1() {
           // @ts-ignore
           autoPlay="autoplay"
           src="/q-c3d7becf.webm"
-        ></video> */}
+        ></video>
       </div>
       <Section_2 />
       {Signup ? <SignupProvider /> : <div></div>}

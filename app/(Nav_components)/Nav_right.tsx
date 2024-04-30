@@ -5,7 +5,6 @@ import {
   setMobileMenu,
   MobileMenu_data,
 } from "../../Redux-store/Redux-action";
-import Campaigns from "./Course"
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import Image from "next/image";
@@ -17,23 +16,6 @@ function Nav_right() {
   const Image_src = data?.user?.image;
   return (
     <div className=" flex flex-row items-center ">
-      <div
-        id="button-primary"
-        className={`px-[16px] py-[5px] ${
-          data?.user ? "hidden" : ""
-        } border border-[#401f788e] select-none active:scale-90 transition-all duration-100 font-medium rounded-[8px] text-white cursor-pointer`}
-      >
-        <a href="https://sports-crowd-funding-chat.vercel.app/" target="_blank">
-          <span>Chat Room</span>
-        </a>
-      </div>
-      <div style={{ margin: "0 10px" }}></div>
-      <div
-        id="button-primary1"
-        className={`px-[16px] py-[5px] border border-[#401f788e] select-none active:scale-90 transition-all duration-100 font-normal rounded-[8px] hover:text-black text-white cursor-pointer`}
-      >
-        <Campaigns />
-      </div>
       {Mobilemenu ? (
         <div></div>
       ) : (
@@ -57,7 +39,16 @@ function Nav_right() {
           </svg>
         </div>
       )}
-      
+      <div
+        onClick={() => dispatch(set_Signup(true))}
+        id="button-primary"
+        className={`px-[16px] py-[5px] ${
+          data?.user ? " hidden" : ""
+        }  border border-[#401f788e]    select-none active:scale-90 transition-all duration-100  font-medium rounded-[8px] text-white 
+    cursor-pointer   `}
+      >
+        <span>Sign up</span>
+      </div>
 
       <div
         onClick={() => signOut()}

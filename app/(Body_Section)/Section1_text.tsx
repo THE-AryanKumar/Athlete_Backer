@@ -38,7 +38,7 @@ function Section1_text() {
         className=" text-[20px] text-gray-200  text-center mt-[10px]"
         id="cursive"
       >
-        Support campaings, through Block-Chain transactions
+        Support campaign, through Block-Chain transactions
       </motion.div>
     </div>
   );

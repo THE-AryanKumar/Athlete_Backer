@@ -73,7 +73,7 @@ function MobileMenu() {
               </span>
               <p className=" mt-[5px] text-[14px] text-gray-300 ">
                 An interactive chat room to learn and discuss about Athlete and
-                Campaings.
+                campaign.
               </p>
             </div>
           </div>

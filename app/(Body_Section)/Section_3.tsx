@@ -21,22 +21,6 @@ function Section_3() {
         </motion.div>
       </div>
       <div className="w-auto h-auto absolute  translate-y-[-50px] flex flex-col items-center justify-center">
-        <div className="w-auto h-auto flex   flex-col group items-center cursor-pointer  ">
-          <Image
-            className="w-[50px]  translate-y-5 transition-all duration-200 group-hover:translate-y-11 "
-            src="/download (2).png"
-            width={1920}
-            height={1080}
-            alt="Securty"
-          />
-          <Image
-            className="w-[70px] z-10"
-            src="/q-92fb8db8.png"
-            width={1920}
-            height={1080}
-            alt="Securty"
-          />
-        </div>
         <motion.div
           variants={textVariant(2)}
           id="Wecom-box"
@@ -69,9 +53,10 @@ function Section_3() {
           muted
           // @ts-ignore
           autoPlay="autoplay"
-          src="/q-ba39153a.webm"
+          src="/q1-ba39153a.webm"
         ></video>
       </div>
+      
     </section>
   );
 }
