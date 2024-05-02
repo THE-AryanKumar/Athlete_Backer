@@ -12,56 +12,56 @@ function Technology_tag({ data }: Props) {
           data.technology_feature.includes("html") ? "" : " hidden"
         }  bg-[#E54F24]    text-white  `}
       >
-        html
+        Rifle Shooter
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("css") ? "" : " hidden"
         }  bg-[#2062AF]    text-white `}
       >
-        css
+        Golf
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("Javascript") ? "" : " hidden"
         }  bg-[#F0DB4F]    text-black `}
       >
-        Javascript
+        England
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("Tailwind") ? "" : " hidden"
         }  bg-[#4ad7f0]    text-[#258899] `}
       >
-        Tailwind
+        Trekking
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("React") ? "" : " hidden"
         }   bg-[#83e0f8]    text-[#226879] `}
       >
-        React
+        Football
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("React Native") ? "" : " hidden"
         }  bg-[#83e0f8]    text-[#1b859f] `}
       >
-        React Native
+        Karate
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("Tauri") ? "" : " hidden"
         }  bg-[#FFC131]    text-[#44a1ab] `}
       >
-        Tauri
+        American
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("Redux") ? "" : " hidden"
         }  bg-[#764ABC]    text-white `}
       >
-        Redux
+        Rifle Shooter
       </div>
       <div
         className={`tag ${
@@ -73,17 +73,17 @@ function Technology_tag({ data }: Props) {
 
       <div
         className={`tag ${
-          data.technology_feature.includes("Type Script") ? "" : " hidden"
+          data.technology_feature.includes("Under - 18") ? "" : " hidden"
         }  bg-[#2D79C7]    text-[#b0cae4] `}
       >
-        Type Script
+        Under - 18
       </div>
       <div
         className={`tag ${
           data.technology_feature.includes("Next js 13") ? "" : " hidden"
         }  bg-[#13224a]    text-[#fdfdfd]  `}
       >
-        Next js 13
+        Swimmer
       </div>
       <div
         className={`tag ${
@@ -104,14 +104,14 @@ function Technology_tag({ data }: Props) {
           data.technology_feature.includes("Gin") ? "" : " hidden"
         }  bg-[#0090D1]    text-[#f1db4b] `}
       >
-        Gin
+        Wresling
       </div>
       <div
         className={`tag ${
-          data.technology_feature.includes("Express js") ? "" : " hidden"
+          data.technology_feature.includes("Squash") ? "" : " hidden"
         }  bg-[#333331]    text-gray-300 `}
       >
-        Express js
+        Squash
       </div>
 
       <div
@@ -123,17 +123,17 @@ function Technology_tag({ data }: Props) {
       </div>
       <div
         className={`tag ${
-          data.technology_feature.includes("Firebase") ? "" : " hidden"
+          data.technology_feature.includes("chess") ? "" : " hidden"
         }  bg-[#e9b422]    text-[#fdfdfd]  `}
       >
-        Firebase
+        Chess
       </div>
       <div
         className={`tag ${
-          data.technology_feature.includes("Postger sql") ? "" : " hidden"
+          data.technology_feature.includes("Male") ? "" : " hidden"
         }  bg-[#336791]    text-[#fdfdfd]  `}
       >
-        Postger sql
+        Male
       </div>
       <div
         className={`tag ${
@@ -147,14 +147,14 @@ function Technology_tag({ data }: Props) {
           data.technology_feature.includes("Framer Motion") ? "" : " hidden"
         }  bg-[#ff13ffd3]   text-[#fdfdfd] `}
       >
-        Framer Motion
+        Para Olympics
       </div>
       <div
         className={`tag ${
-          data.technology_feature.includes("Graphql") ? "" : " hidden"
+          data.technology_feature.includes("Female") ? "" : " hidden"
         }   bg-[#E632AD]     text-[#fdfdfd] `}
       >
-        Graphql
+        Female
       </div>
       <div
         id="cursive"
@@ -182,10 +182,10 @@ function Technology_tag({ data }: Props) {
       </div>
       <div
         className={`tag ${
-          data.technology_feature.includes("Stripe") ? "" : " hidden"
+          data.technology_feature.includes("Indian") ? "" : " hidden"
         }  bg-[#665BFF]    text-[#fdfdfd]  `}
       >
-        Stripe
+        Indian
       </div>
       <div
         className={`tag ${

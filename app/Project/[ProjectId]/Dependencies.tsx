@@ -28,7 +28,7 @@ function Dependencies({ Single_data }: Props) {
   return (
     <div className="w-full h-auto">
       <span className=" my-[20px] font-bold text-slate-200 text-[23px] ">
-        Dependencies
+      Requirements
       </span>
       <p className="text-gray-300 text-[15px]">
         {Single_data.dependencies_blog}
